@@ -1,34 +1,15 @@
 const links = [
   {
-    title: "Portfolio and Resume",
-    url: "https://montoulieu.dev",
-    emoji: "🤝",
+    title: "Funky House | DJ Hanky Lanky Live Mix",
+    url: "https://soundcloud.com/hankylanky/funky-house-set-dj-hanky-lanky-live-mix",
+    emoji: "funky-set.png",
   },
   {
-    title: "Dev/Tech Blog",
-    url: "https://montoulieu.substack.com",
-    emoji: "📝",
+    title: "Deep House | DJ Hanky Lanky Live Mix",
+    url: "https://soundcloud.com/hankylanky/deep-house-set?in=hankylanky/sets/deep-house-playlist",
+    emoji: "deep-house.png",
   },
-  {
-    title: "VGM and Emulation Blog",
-    url: "https://pixelglitch.net",
-    emoji: "👾",
-  },
-  {
-    title: "shwarma - Experimental Psych Rock",
-    url: "https://music.shwarma.band",
-    emoji: "🎸",
-  },
-  {
-    title: "Dr. Zilog - Chiptune Prog Metal",
-    url: "https://drzilog.bandcamp.com",
-    emoji: "🤘",
-  },
-  {
-    title: "Vaporwave and Ambient Music",
-    url: "https://montoulieu.bandcamp.com",
-    emoji: "🔊",
-  },
+
 ];
 
 export default links;

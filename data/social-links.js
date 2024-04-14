@@ -1,23 +1,15 @@
 const socialLinks = [
   {
-    icon: "github",
-    url: "https://github.com/montoulieu",
-  },
-  {
-    icon: "twitter",
-    url: "https://twitter.com/_montoulieu",
-  },
-  {
-    icon: "mastodon",
-    url: "https://mastodon.social/@pimont",
+    icon: "mail",
+    url: "mailto:hankylankyy@gmail.com",
   },
   {
     icon: "instagram",
-    url: "https://instagram.com/montoulieu.dev",
+    url: "https://www.instagram.com/hanky__lanky",
   },
   {
-    icon: "linkedin",
-    url: "https://www.linkedin.com/in/pieter-montoulieu",
+    icon: "soundcloud",
+    url: "https://soundcloud.com/hankylanky",
   },
 ];
 

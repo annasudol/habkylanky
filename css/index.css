@@ -9,3 +9,21 @@ body {
   font-family: "Karla";
   @apply bg-neutral-900 text-lime-200;
 }
+
+
+.soclial-link {
+    z-index: 0;
+    overflow: hidden;
+    margin-bottom: 16px;
+    border: 2px solid rgb(0, 0, 0);
+    transition: none 0s ease 0s;
+    box-shadow: rgb(0, 0, 0) 8px 8px 0px 0px;
+    color: rgb(136, 136, 136);
+    background-color: rgb(255, 255, 255);
+    width: calc(100% - 12px);
+}
+
+.soclial-link:hover {
+    transform: translate(4px, 4px);
+    box-shadow: rgb(0, 0, 0) 4px 4px 0px 0px;
+}

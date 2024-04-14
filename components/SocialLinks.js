@@ -1,4 +1,5 @@
 import { socialLinks } from "@/data";
+import Image from "next/image";
 
 function SocialLinks() {
   return (
@@ -6,13 +7,20 @@ function SocialLinks() {
       {socialLinks.map((link) => (
         <li className="h-8 flex items-center" key={link.icon}>
           <a
-            className="text-lime-400 hover:text-lime-600 transition-colors duration-200"
+            className="text-[#f1efe7] hover:scale-125 transition-colors duration-200"
             href={link.url}
             target="_blank"
             rel="noopener"
             alt={link.icon}
           >
-            <i className={`bi-${link.icon} text-3xl`}></i>
+
+             <Image
+          height={32}
+          width={32}
+          src={`/${link.icon}.svg`}
+          alt="Hanky Lanky"
+          
+        />
           </a>
         </li>
       ))}

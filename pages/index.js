@@ -16,26 +16,20 @@ function IndexPage() {
     logPageView();
   }, []);
 
-  console.log(info);
 
   return (
-    <div className="flex flex-col min-h-screen py-10 px-6 sm:px-0">
-      {/* FontAwesome CDN style tag */}
+    <div className="flex flex-col justify-between min-h-screen py-10 px-6 sm:px-0 bg-[#ee2324]">
       <Head>
-        <title>{info.name} | LinkEnt</title>
+        <title>{info.name}</title>
         <meta
           name="description"
-          content="🌲 A free Linktree alternative built with React and Tailwind."
+          content="Hanky Lanky | DJ and producer"
         />
       </Head>
-
-      {/* Profile Pic and Title Header*/}
-      <Header />
-
-      {/* List of Links generated from links.json */}
+     <div>
+       <Header />
       <LinkList />
-
-      {/* Social Links and Footer Disclaimer/Credits */}
+     </div>
       <Footer />
     </div>
   );

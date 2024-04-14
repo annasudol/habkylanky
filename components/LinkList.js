@@ -1,23 +1,31 @@
 import { links } from "@/data";
 import tw from "tailwind-styled-components";
-
+import Image from "next/image";
 function LinkList() {
   return (
     <ul className="w-full md:w-4/5 lg:w-3/6 mx-auto mb-3">
       {links.map((link) => (
-        <li className="mb-4" key={link.title}>
-          <TWListItemLink
-            className=""
+        <li className="mb-4 soclial-link h-16 w-auto" key={link.title}>
+          <a
+            className="flex justify-start items-center p-1.5"
             href={link.url}
             alt={link.title}
             target="_blank"
             rel="noopener"
+
           >
-            <span className="text-3xl absolute left-0 top-0 bottom-0 pl-5 flex items-center">
-              {link.emoji}
-            </span>
-            <span>{link.title}</span>
-          </TWListItemLink>
+ 
+
+             <Image
+          height={22}
+          width={22} 
+          className="w-12 h-12"
+          src={`/${link.emoji}`}
+          alt={link.emoji}
+          
+        />
+            <span className="ml-1">{link.title}</span>
+          </a>
         </li>
       ))}
     </ul>
